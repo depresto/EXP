@@ -1,0 +1,17 @@
+17:30:28:025	8eebf780	
+17:30:28:025	8eebf780	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+17:30:28:025	8eebf780	บ     Claymore's Dual Ethereum + Decred AMD GPU Miner  v4.1      บ
+17:30:28:025	8eebf780	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+17:30:28:025	8eebf780	
+17:30:28:225	8eebf780	ETH: 1 pool is specified
+17:30:28:227	8eebf780	OpenCL platform: AMD Accelerated Parallel Processing
+17:30:28:227	8eebf780	
+Cards available: 1 
+17:30:28:227	8eebf780	GPU #0: name: Tahiti, 2832 MB available, 32 units 
+17:30:28:227	8eebf780	Total cards: 1 
+17:30:28:227	8eebf780	Initializing...
+
+17:30:28:227	8eebf780	GPU #0 recognized as Radeon 280X/380X
+17:30:28:227	8eebf780	POOL version
+17:30:28:227	8eebf780	b127 
+17:30:28:227	8eebf780	Error loading Data.bin

@@ -1,0 +1,484 @@
+17:30:59:144	81b0780	
+17:30:59:144	81b0780	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+17:30:59:145	81b0780	บ     Claymore's Dual Ethereum + Decred AMD GPU Miner  v4.1      บ
+17:30:59:145	81b0780	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+17:30:59:145	81b0780	
+17:30:59:345	81b0780	ETH: 1 pool is specified
+17:30:59:347	81b0780	OpenCL platform: AMD Accelerated Parallel Processing
+17:30:59:347	81b0780	
+Cards available: 1 
+17:30:59:347	81b0780	GPU #0: name: Tahiti, 2832 MB available, 32 units 
+17:30:59:347	81b0780	Total cards: 1 
+17:30:59:347	81b0780	Initializing...
+
+17:30:59:347	81b0780	GPU #0 recognized as Radeon 280X/380X
+17:30:59:347	81b0780	POOL version
+17:30:59:347	81b0780	b127 
+17:31:01:131	81b0780	GPU #0: set -etha as 0 (ETH algo for fast cards)
+17:31:01:237	81b0780	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+17:31:01:237	81b0780	ETH: eth-proxy stratum mode
+17:31:01:237	81b0780	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+17:31:01:237	81b0780	Watchdog enabled
+17:31:01:237	81b0780	
+17:31:01:308	f8fba700	ETH: Stratum - connecting to 'ebit4fun.com' <59.127.85.237> port 8008
+17:31:01:323	f8fba700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x668fa3e3295b819bbd18d73bc3c096385e503ee3", "x"], "id": 2, "method": "eth_submitLogin"}
+
+17:31:01:323	f8fba700	ETH: Stratum - Connected (ebit4fun.com:8008)
+17:31:01:343	f8fba700	got 39 bytes
+17:31:01:343	f8fba700	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+17:31:01:343	f8fba700	parse packet: 39
+17:31:01:343	f8fba700	ETH: Authorized
+17:31:01:343	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:01:343	f8fba700	new buf size: 0
+17:31:01:353	f8fba700	got 237 bytes
+17:31:01:353	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:01:353	f8fba700	parse packet: 237
+17:31:01:353	f8fba700	eth: job changed
+17:31:01:353	f8fba700	new buf size: 0
+17:31:01:442	f97bb700	Setting DAG epoch #13...
+17:31:02:688	f97bb700	Setting DAG epoch #13 for GPU #0
+17:31:02:689	f97bb700	Create GPU buffer for GPU #0
+17:31:07:427	f97bb700	GPU 0 DAG creation time 4730 ms
+17:31:07:427	f97bb700	Setting DAG epoch #13 for GPU #0 done
+17:31:11:355	f8fba700	ETH: checking pool connection...
+17:31:11:355	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:11:355	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a507cd", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:31:11:366	f8fba700	got 237 bytes
+17:31:11:366	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:11:366	f8fba700	parse packet: 237
+17:31:11:366	f8fba700	eth: job is the same
+17:31:11:366	f8fba700	new buf size: 0
+17:31:11:374	f8fba700	got 39 bytes
+17:31:11:374	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:31:11:374	f8fba700	parse packet: 39
+17:31:11:374	f8fba700	new buf size: 0
+17:31:21:356	f8fba700	ETH: checking pool connection...
+17:31:21:356	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:21:356	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a52caf", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:31:21:367	f8fba700	got 237 bytes
+17:31:21:367	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:21:367	f8fba700	parse packet: 237
+17:31:21:367	f8fba700	eth: job is the same
+17:31:21:367	f8fba700	new buf size: 0
+17:31:21:376	f8fba700	got 39 bytes
+17:31:21:376	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:31:21:376	f8fba700	parse packet: 39
+17:31:21:376	f8fba700	new buf size: 0
+17:31:31:238	81b0780	em hbt: 1, fm hbt: 80, 
+17:31:31:238	81b0780	watchdog - thread 0, hb time 88
+17:31:31:238	81b0780	watchdog - thread 1, hb time 240
+17:31:31:358	f8fba700	ETH: checking pool connection...
+17:31:31:358	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:31:358	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4c970", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:31:31:368	f8fba700	got 237 bytes
+17:31:31:368	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:31:369	f8fba700	parse packet: 237
+17:31:31:369	f8fba700	eth: job is the same
+17:31:31:369	f8fba700	new buf size: 0
+17:31:31:378	f8fba700	got 39 bytes
+17:31:31:378	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:31:31:378	f8fba700	parse packet: 39
+17:31:31:378	f8fba700	new buf size: 0
+17:31:41:359	f8fba700	ETH: checking pool connection...
+17:31:41:359	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:41:359	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4f613", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:31:41:370	f8fba700	got 237 bytes
+17:31:41:370	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:41:370	f8fba700	parse packet: 237
+17:31:41:370	f8fba700	eth: job is the same
+17:31:41:370	f8fba700	new buf size: 0
+17:31:41:380	f8fba700	got 39 bytes
+17:31:41:380	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:31:41:380	f8fba700	parse packet: 39
+17:31:41:380	f8fba700	new buf size: 0
+17:31:41:412	f9fbc700	ETH: put share nonce c2a771fc1bdac0b2
+17:31:41:412	f9fbc700	ETH round found 1 shares
+17:31:41:412	f8fba700	ETH: 10/15/16-17:31:41 - SHARE FOUND - (GPU 0)
+17:31:41:412	f8fba700	send: {"worker":"depresto","id":4,"method":"eth_submitWork","params":["0xc2a771fc1bdac0b2","0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0xc73fcc72d35cfb587459f2719e1677d186749d4d3c693a8b1cb76533c0ee6c37"]}
+
+17:31:41:435	f8fba700	got 39 bytes
+17:31:41:435	f8fba700	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+17:31:41:435	f8fba700	parse packet: 39
+17:31:41:435	f8fba700	ETH: Share accepted (23 ms)!
+17:31:41:435	f8fba700	new buf size: 0
+17:31:51:360	f8fba700	ETH: checking pool connection...
+17:31:51:360	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:31:51:360	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a48bdb", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:31:51:371	f8fba700	got 237 bytes
+17:31:51:371	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:31:51:371	f8fba700	parse packet: 237
+17:31:51:371	f8fba700	eth: job is the same
+17:31:51:371	f8fba700	new buf size: 0
+17:31:51:381	f8fba700	got 39 bytes
+17:31:51:381	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:31:51:381	f8fba700	parse packet: 39
+17:31:51:381	f8fba700	new buf size: 0
+17:32:01:239	81b0780	em hbt: 0, fm hbt: 58, 
+17:32:01:239	81b0780	watchdog - thread 0, hb time 60
+17:32:01:239	81b0780	watchdog - thread 1, hb time 212
+17:32:01:360	f8fba700	ETH: checking pool connection...
+17:32:01:361	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:01:361	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4d4c5", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:01:371	f8fba700	got 237 bytes
+17:32:01:371	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:01:371	f8fba700	parse packet: 237
+17:32:01:371	f8fba700	eth: job is the same
+17:32:01:372	f8fba700	new buf size: 0
+17:32:01:381	f8fba700	got 39 bytes
+17:32:01:381	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:01:381	f8fba700	parse packet: 39
+17:32:01:381	f8fba700	new buf size: 0
+17:32:11:361	f8fba700	ETH: checking pool connection...
+17:32:11:362	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:11:362	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4dc90", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:11:372	f8fba700	got 237 bytes
+17:32:11:372	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0x8648e5c2086ac6141c3594c88d55e8a491d22c88a88b5a3371d648f9707e7582","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:11:372	f8fba700	parse packet: 237
+17:32:11:372	f8fba700	eth: job is the same
+17:32:11:372	f8fba700	new buf size: 0
+17:32:11:384	f8fba700	got 39 bytes
+17:32:11:384	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:11:384	f8fba700	parse packet: 39
+17:32:11:384	f8fba700	new buf size: 0
+17:32:15:917	f8fba700	got 237 bytes
+17:32:15:917	f8fba700	buf: {"id":0,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:15:917	f8fba700	parse packet: 237
+17:32:15:917	f8fba700	eth: job changed
+17:32:15:917	f8fba700	new buf size: 0
+17:32:15:917	f8fba700	ETH: 10/15/16-17:32:15 - New job (target 0x0000000225c17d04) from ebit4fun.com:8008
+17:32:15:917	f8fba700	ETH - Total Speed: 27.607 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:01
+17:32:15:917	f8fba700	ETH: GPU0 27.607 Mh/s
+17:32:15:930	f97bb700	Job changed, drop current round
+17:32:15:930	f9fbc700	Job changed, drop current round
+17:32:21:362	f8fba700	ETH: checking pool connection...
+17:32:21:362	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:21:363	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4ac68", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:21:374	f8fba700	got 237 bytes
+17:32:21:374	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:21:374	f8fba700	parse packet: 237
+17:32:21:374	f8fba700	eth: job is the same
+17:32:21:374	f8fba700	new buf size: 0
+17:32:21:383	f8fba700	got 39 bytes
+17:32:21:383	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:21:383	f8fba700	parse packet: 39
+17:32:21:383	f8fba700	new buf size: 0
+17:32:29:254	f97bb700	ETH: put share nonce 91e142880ae3836d
+17:32:29:254	f97bb700	ETH round found 1 shares
+17:32:29:255	f8fba700	ETH: 10/15/16-17:32:29 - SHARE FOUND - (GPU 0)
+17:32:29:255	f8fba700	send: {"worker":"depresto","id":4,"method":"eth_submitWork","params":["0x91e142880ae3836d","0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x126abcd52c1a038c341b2042334fb1e5324cb5f4b1a96bafff73e1c4114a501d"]}
+
+17:32:29:278	f8fba700	got 39 bytes
+17:32:29:278	f8fba700	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+17:32:29:278	f8fba700	parse packet: 39
+17:32:29:278	f8fba700	ETH: Share accepted (23 ms)!
+17:32:29:278	f8fba700	new buf size: 0
+17:32:31:240	81b0780	em hbt: 0, fm hbt: 35, 
+17:32:31:240	81b0780	watchdog - thread 0, hb time 15
+17:32:31:240	81b0780	watchdog - thread 1, hb time 167
+17:32:31:364	f8fba700	ETH: checking pool connection...
+17:32:31:364	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:31:364	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a502d6", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:31:375	f8fba700	got 237 bytes
+17:32:31:375	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:31:375	f8fba700	parse packet: 237
+17:32:31:375	f8fba700	eth: job is the same
+17:32:31:375	f8fba700	new buf size: 0
+17:32:31:384	f8fba700	got 39 bytes
+17:32:31:384	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:31:384	f8fba700	parse packet: 39
+17:32:31:384	f8fba700	new buf size: 0
+17:32:41:365	f8fba700	ETH: checking pool connection...
+17:32:41:365	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:41:365	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4e7e6", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:41:376	f8fba700	got 237 bytes
+17:32:41:376	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:41:376	f8fba700	parse packet: 237
+17:32:41:376	f8fba700	eth: job is the same
+17:32:41:376	f8fba700	new buf size: 0
+17:32:41:385	f8fba700	got 39 bytes
+17:32:41:385	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:41:385	f8fba700	parse packet: 39
+17:32:41:385	f8fba700	new buf size: 0
+17:32:45:296	f97bb700	ETH: put share nonce 91e142881820a9d2
+17:32:45:296	f97bb700	ETH round found 1 shares
+17:32:45:296	f8fba700	ETH: 10/15/16-17:32:45 - SHARE FOUND - (GPU 0)
+17:32:45:296	f8fba700	send: {"worker":"depresto","id":4,"method":"eth_submitWork","params":["0x91e142881820a9d2","0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x8decf88532594cd9961eb513000670daca0934c542c51ab34d0d4ab75fb5c417"]}
+
+17:32:45:321	f8fba700	got 39 bytes
+17:32:45:321	f8fba700	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+17:32:45:321	f8fba700	parse packet: 39
+17:32:45:321	f8fba700	ETH: Share accepted (25 ms)!
+17:32:45:321	f8fba700	new buf size: 0
+17:32:51:366	f8fba700	ETH: checking pool connection...
+17:32:51:366	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:32:51:366	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4fa54", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:32:51:378	f8fba700	got 237 bytes
+17:32:51:378	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:32:51:378	f8fba700	parse packet: 237
+17:32:51:378	f8fba700	eth: job is the same
+17:32:51:378	f8fba700	new buf size: 0
+17:32:51:386	f8fba700	got 39 bytes
+17:32:51:386	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:32:51:387	f8fba700	parse packet: 39
+17:32:51:387	f8fba700	new buf size: 0
+17:33:01:241	81b0780	em hbt: 0, fm hbt: 15, 
+17:33:01:241	81b0780	watchdog - thread 0, hb time 282
+17:33:01:241	81b0780	watchdog - thread 1, hb time 130
+17:33:01:366	f8fba700	ETH: checking pool connection...
+17:33:01:366	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:01:366	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4e731", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:01:377	f8fba700	got 237 bytes
+17:33:01:377	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:01:377	f8fba700	parse packet: 237
+17:33:01:377	f8fba700	eth: job is the same
+17:33:01:377	f8fba700	new buf size: 0
+17:33:01:386	f8fba700	got 39 bytes
+17:33:01:386	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:01:386	f8fba700	parse packet: 39
+17:33:01:386	f8fba700	new buf size: 0
+17:33:11:368	f8fba700	ETH: checking pool connection...
+17:33:11:368	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:11:368	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a50717", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:11:379	f8fba700	got 237 bytes
+17:33:11:379	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:11:379	f8fba700	parse packet: 237
+17:33:11:379	f8fba700	eth: job is the same
+17:33:11:379	f8fba700	new buf size: 0
+17:33:11:389	f8fba700	got 39 bytes
+17:33:11:389	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:11:389	f8fba700	parse packet: 39
+17:33:11:389	f8fba700	new buf size: 0
+17:33:21:369	f8fba700	ETH: checking pool connection...
+17:33:21:370	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:21:370	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a55303", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:21:380	f8fba700	got 237 bytes
+17:33:21:380	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:21:380	f8fba700	parse packet: 237
+17:33:21:381	f8fba700	eth: job is the same
+17:33:21:381	f8fba700	new buf size: 0
+17:33:21:390	f8fba700	got 39 bytes
+17:33:21:390	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:21:390	f8fba700	parse packet: 39
+17:33:21:390	f8fba700	new buf size: 0
+17:33:31:242	81b0780	em hbt: 1, fm hbt: 94, 
+17:33:31:242	81b0780	watchdog - thread 0, hb time 177
+17:33:31:242	81b0780	watchdog - thread 1, hb time 25
+17:33:31:370	f8fba700	ETH: checking pool connection...
+17:33:31:370	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:31:370	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4a49f", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:31:381	f8fba700	got 237 bytes
+17:33:31:381	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:31:381	f8fba700	parse packet: 237
+17:33:31:381	f8fba700	eth: job is the same
+17:33:31:381	f8fba700	new buf size: 0
+17:33:31:390	f8fba700	got 39 bytes
+17:33:31:390	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:31:390	f8fba700	parse packet: 39
+17:33:31:390	f8fba700	new buf size: 0
+17:33:36:176	f9fbc700	ETH: put share nonce 48ef44344224c758
+17:33:36:177	f9fbc700	ETH round found 1 shares
+17:33:36:177	f8fba700	ETH: 10/15/16-17:33:36 - SHARE FOUND - (GPU 0)
+17:33:36:177	f8fba700	send: {"worker":"depresto","id":4,"method":"eth_submitWork","params":["0x48ef44344224c758","0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x851ab9362d81e2973b8535013b129ef449f19ebabf7736e26e1b674c771d0a55"]}
+
+17:33:36:223	f8fba700	got 39 bytes
+17:33:36:223	f8fba700	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+17:33:36:223	f8fba700	parse packet: 39
+17:33:36:223	f8fba700	ETH: Share accepted (45 ms)!
+17:33:36:223	f8fba700	new buf size: 0
+17:33:41:372	f8fba700	ETH: checking pool connection...
+17:33:41:372	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:41:372	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a51a3d", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:41:383	f8fba700	got 237 bytes
+17:33:41:383	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:41:383	f8fba700	parse packet: 237
+17:33:41:383	f8fba700	eth: job is the same
+17:33:41:383	f8fba700	new buf size: 0
+17:33:41:392	f8fba700	got 39 bytes
+17:33:41:392	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:41:392	f8fba700	parse packet: 39
+17:33:41:392	f8fba700	new buf size: 0
+17:33:51:373	f8fba700	ETH: checking pool connection...
+17:33:51:373	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:33:51:374	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a4e89c", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:33:51:406	f8fba700	got 237 bytes
+17:33:51:406	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:33:51:406	f8fba700	parse packet: 237
+17:33:51:406	f8fba700	eth: job is the same
+17:33:51:406	f8fba700	new buf size: 0
+17:33:51:416	f8fba700	got 39 bytes
+17:33:51:416	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:33:51:416	f8fba700	parse packet: 39
+17:33:51:416	f8fba700	new buf size: 0
+17:34:01:243	81b0780	em hbt: 0, fm hbt: 72, 
+17:34:01:243	81b0780	watchdog - thread 0, hb time 126
+17:34:01:243	81b0780	watchdog - thread 1, hb time 278
+17:34:01:375	f8fba700	ETH: checking pool connection...
+17:34:01:375	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:34:01:375	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a426c9", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:34:01:386	f8fba700	got 237 bytes
+17:34:01:386	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:34:01:386	f8fba700	parse packet: 237
+17:34:01:386	f8fba700	eth: job is the same
+17:34:01:386	f8fba700	new buf size: 0
+17:34:01:396	f8fba700	got 39 bytes
+17:34:01:396	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:34:01:396	f8fba700	parse packet: 39
+17:34:01:396	f8fba700	new buf size: 0
+17:34:11:376	f8fba700	ETH: checking pool connection...
+17:34:11:376	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:34:11:376	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a52702", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:34:11:387	f8fba700	got 237 bytes
+17:34:11:387	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:34:11:387	f8fba700	parse packet: 237
+17:34:11:387	f8fba700	eth: job is the same
+17:34:11:387	f8fba700	new buf size: 0
+17:34:11:397	f8fba700	got 39 bytes
+17:34:11:397	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:34:11:397	f8fba700	parse packet: 39
+17:34:11:397	f8fba700	new buf size: 0
+17:34:18:177	f97bb700	ETH: put share nonce 91e14288648973ea
+17:34:18:177	f97bb700	ETH round found 1 shares
+17:34:18:178	f8fba700	ETH: 10/15/16-17:34:18 - SHARE FOUND - (GPU 0)
+17:34:18:178	f8fba700	send: {"worker":"depresto","id":4,"method":"eth_submitWork","params":["0x91e14288648973ea","0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0xb2c4a141a9a680259286619ab6b0ad87839075cde803a0463886b6190ccb914a"]}
+
+17:34:18:204	f8fba700	got 39 bytes
+17:34:18:204	f8fba700	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+17:34:18:204	f8fba700	parse packet: 39
+17:34:18:204	f8fba700	ETH: Share accepted (26 ms)!
+17:34:18:204	f8fba700	new buf size: 0
+17:34:21:377	f8fba700	ETH: checking pool connection...
+17:34:21:377	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:34:21:377	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a52923", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:34:21:388	f8fba700	got 237 bytes
+17:34:21:388	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:34:21:388	f8fba700	parse packet: 237
+17:34:21:388	f8fba700	eth: job is the same
+17:34:21:388	f8fba700	new buf size: 0
+17:34:21:398	f8fba700	got 39 bytes
+17:34:21:398	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:34:21:398	f8fba700	parse packet: 39
+17:34:21:398	f8fba700	new buf size: 0
+17:34:31:244	81b0780	em hbt: 0, fm hbt: 50, 
+17:34:31:244	81b0780	watchdog - thread 0, hb time 142
+17:34:31:244	81b0780	watchdog - thread 1, hb time 294
+17:34:31:379	f8fba700	ETH: checking pool connection...
+17:34:31:379	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:34:31:379	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a441a0", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:34:31:390	f8fba700	got 237 bytes
+17:34:31:390	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:34:31:390	f8fba700	parse packet: 237
+17:34:31:390	f8fba700	eth: job is the same
+17:34:31:390	f8fba700	new buf size: 0
+17:34:31:399	f8fba700	got 39 bytes
+17:34:31:399	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:34:31:400	f8fba700	parse packet: 39
+17:34:31:400	f8fba700	new buf size: 0
+17:34:41:380	f8fba700	ETH: checking pool connection...
+17:34:41:380	f8fba700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:34:41:380	f8fba700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1a51af2", "0x000000000000000000000000000000000000000000000000000000001e727def", "depresto"]}
+
+17:34:41:391	f8fba700	got 237 bytes
+17:34:41:391	f8fba700	buf: {"id":3,"jsonrpc":"2.0","result":["0xab9c834c202467f4ba1f6b7f2493a3606177efb8cd6014c3c646b0c2a698acf5","0x9b1ca7a86d339a3f175e48937848ac1cc012678e046b8c433a226d06f0f9bf9b","0x0225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"]}
+
+17:34:41:391	f8fba700	parse packet: 237
+17:34:41:391	f8fba700	eth: job is the same
+17:34:41:391	f8fba700	new buf size: 0
+17:34:41:401	f8fba700	got 39 bytes
+17:34:41:401	f8fba700	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+17:34:41:401	f8fba700	parse packet: 39
+17:34:41:401	f8fba700	new buf size: 0
